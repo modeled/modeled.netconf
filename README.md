@@ -30,23 +30,25 @@
 
 
 
-* Automagically create [YANG](http://www.yang-central.org)
+[\\/\\/\\>](#from-a-modeled-class-to-a-yang-module)
+  Automagically create [YANG](http://www.yang-central.org)
   modules and data containers from
   [MODELED](https://pypi.python.org/pypi/modeled) Python classes
-  [>>>](#from-a-modeled-class-to-a-yang-module)
-* Simply turn Python methods into
+
+[\\/\\/\\>](#adding-rpc-methods)
+  Simply turn Python methods into
   [NETCONF](http://www.netconfcentral.org)/YANG RPC methods
   using decorators
-  [>>>](#adding-rpc-methods)
-* Directly start NETCONF servers from modeled YANG modules
-  [>>>](#from-modeled-yang-modules-to-a-netconf-service)
 
+[\\/\\/\\>](#from-modeled-yang-modules-to-a-netconf-service)
+  Directly start NETCONF servers from modeled YANG modules
 
-* **TODO**:
-    * Proper RPC namespace handling
-    * Handle default NETCONF RPC methods like `<get>` or `<get-config>`
-    * Create NETCONF servers with multiple modeled YANG modules
-    * Automagically create Pythonic NETCONF clients from YANG definitions
+**TODO**:
+
+* Proper RPC namespace handling
+* Handle default NETCONF RPC methods like `<get>` or `<get-config>`
+* Create NETCONF servers with multiple modeled YANG modules
+* Automagically create Pythonic NETCONF clients from YANG definitions
 
 
 
@@ -237,7 +239,7 @@ I took it from the **pyang** tutorial again.
 It's a very simple program for adding to numbers in unary notation,
 separated by a **0**.
 
-It can easily be defined [YAML](http://yaml.org).
+The program is defined in [YAML](http://yaml.org) below.
 If you haven't installed [pyyaml](http://pyyaml.org/wiki/PyYAML) yet:
 
 > `pip install pyyaml`
